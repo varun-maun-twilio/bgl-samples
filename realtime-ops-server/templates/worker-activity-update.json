@@ -1,0 +1,40 @@
+{
+    "specversion": "1.0",
+    "type": "com.twilio.taskrouter.worker.activity.update",
+    "source": "/v1/Workspaces/WSfe723446513d979d66d90be6c3e9654a/Workers/WK8358c7690fef3376e0fc46280a417cd6",
+    "id": "EZ45daea4313fd8ffef636ddbfe34f3846",
+    "dataschema": "https://events-schemas.twilio.com/TaskRouter.WDSEvent/2",
+    "datacontenttype": "application/json",
+    "time": "2022-04-21T14:48:40.362Z",
+    "data": {
+        "name": "WorkerActivityUpdate",
+        "timestamp": "2022-04-21T14:48:40.362Z",
+        "payload": {
+            "worker_previous_activity_sid": "WAc69ee331a66dbf9f8d14965dd1748cf4",
+            "eventtype": "worker.activity.update",
+            "worker_time_in_previous_activity": 29,
+            "timestamp": "2022-04-21T14:48:40.362Z",
+            "worker_name": "joe.owling@example.com",
+            "resource_type": "worker",
+            "event_description": "Worker joe.owling@example.com updated to Available Activity",
+            "worker_activity_sid": "WA165f0bef6e95d5cc9aef63d72939bc85",
+            "worker_time_in_previous_activity_ms": 29692,
+            "workspace_name": "Flex Task Assignment",
+            "resource_sid": "WK8358c7690fef3376e0fc46280a417cd6",
+            "workspace_sid": "WSfe723446513d979d66d90be6c3e9654a",
+            "account_sid": "AC75903cb51ef4da2b3cdbafed81aae0a4",
+            "worker_previous_activity_name": "Offline",
+            "worker_attributes": "{\"contact_uri\":\"client:joe_2Eowling_40example_2Ecom\",\"full_name\":\"Joe Owling\",\"email\":\"joe.owling@example.com\",\"roles\":[\"agent\"]}",
+            "worker_sid": "<%=workerSid%>",
+            "sid": "EV45daea4313fd8ffef636ddbfe34f3846",
+            "worker_activity_name": "<%=newActivityName%>"
+        },
+        "product_name": "TaskRouter",
+        "publisher": "Flex Task Assignment",
+        "account_sid": "AC75903cb51ef4da2b3cdbafed81aae0a4",
+        "payload_type": "application/json",
+        "group": "worker",
+        "sid": "EV45daea4313fd8ffef636ddbfe34f3846",
+        "level": "INFO"
+    }
+}

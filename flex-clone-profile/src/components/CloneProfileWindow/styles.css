@@ -1,0 +1,39 @@
+.cloneSkillModalWindow{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(0,0,0,0.2);
+    display:flex;
+    justify-content:center;
+    align-items :center;
+}
+
+.cloneSkillsTitle h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cloneSkillsContentWrap{
+    overflow:auto;
+    max-height:90%;
+    background:#fff;
+    padding:10px 20px;
+}
+
+.cloneSkillsListWrap{
+    height:350px;
+    overflow:auto;
+}
+
+.cloneSkillsFooter{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+    padding: 10px 0px;
+}
+
+.cloneSkillsFooter > *{
+    margin-left: 10px;
+}
